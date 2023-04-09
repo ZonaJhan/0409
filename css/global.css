@@ -1,0 +1,41 @@
+body {
+    /* 使用微軟正黑體, helvetica neue, arial, sans-serif   */
+    font-family: 'Microsoft JhengHei', "helvetica neue", arial, sans-serif;
+}
+
+kbd {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 11px;
+    line-height: 10px;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fcfcfc;
+    border: solid 1px #ccc;
+    border-bottom-color: #bbb;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #bbb;
+}
+
+footer {
+    background: linear-gradient(45deg, #333, #222);
+    border-top: 1px solid #111;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+footer p {
+    color: #cacaca;
+    margin: 0px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #cacaca;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+}
